@@ -79,3 +79,42 @@ It’s a learning-embedded cognitive framework in code.
 It's how logic feels when you write it.
 It’s why truth matters when you debug.
 It’s what instruction becomes when structured for the mind.
+
+
+📦 Features Supported
+
+| Feature             | Status                 |
+| ------------------- | ---------------------- |
+| `assume` handling   | ✅                      |
+| `step` tracking     | ✅                      |
+| Basic logic parsing | ✅ (`AND`, `OR`, `NOT`) |
+| Conclusion checking | ✅                      |
+| Dynamic truth eval  | ✅                      |
+
+
+⏭️ Optional Next Steps
+Add full parser from proof script files
+
+Implement IMPLIES, EQUIV, XOR, etc.
+
+Support for visual proof tree rendering
+
+Full step-by-step proof debugger
+
+
+🧪 Output Example:
+vbnet
+
+🧠 Triune Proof Engine
+Assumptions:
+  P := true
+  Q := false
+
+🧩 Steps:
+  Step 1: Assume P AND Q implies R
+  Step 2: Since Q is false, P AND Q is false
+  Step 3: Therefore implication is vacuously true
+
+🔎 Evaluating Conclusion: P AND Q
+
+✅ Conclusion: FALSE

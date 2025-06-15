@@ -1,0 +1,11 @@
+what: begin the loop
+repeat 5 times:
+    do:
+        say "looping"
+
+or
+
+what:
+    check user input
+    validate it
+    respond accordingly

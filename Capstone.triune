@@ -1,0 +1,12 @@
+why: define truth states
+let P := true
+let Q := false
+let R := false
+
+why: logic evaluation of (P and Q) → R
+if P and Q then
+    outcome := R
+else
+    outcome := true
+
+say outcome

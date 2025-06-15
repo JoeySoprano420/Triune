@@ -1,0 +1,8 @@
+why: we define a variable
+let x := 5
+
+or
+
+why: we want to check truth
+if x is 5 then
+    say "True logic"

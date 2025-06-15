@@ -1,0 +1,10 @@
+truth tautology := (x == x)
+truth contradiction := (x > 5 and x < 3)
+truth condition := (user.age >= 18)
+
+or
+
+logic_eval:
+    P = true
+    Q = false
+    if P and not Q then say "Valid"

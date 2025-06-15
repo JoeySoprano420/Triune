@@ -118,3 +118,28 @@ Assumptions:
 🔎 Evaluating Conclusion: P AND Q
 
 ✅ Conclusion: FALSE
+
+
+
+🛠 Advanced Features
+
+| Feature      | Description                                           |
+| ------------ | ----------------------------------------------------- |
+| `assume`     | Declares axioms or preconditions                      |
+| `define`     | Add custom truth relations, predicates                |
+| `step N:`    | Documents a logical transition                        |
+| `contradict` | Flags an intentional contradiction for indirect proof |
+| `derive`     | Apply rules like Modus Ponens, DeMorgan, etc.         |
+| `conclude`   | Final assertion, auto-checked for truth               |
+| `explain`    | (Optional) Embed human-readable logic for teaching    |
+| `trace`      | Verbose output of reasoning flow                      |
+
+
+
+📘 Cross-Modal Application
+
+| Learning Style | Proof Block Alignment                       |
+| -------------- | ------------------------------------------- |
+| **Why**        | Explains assumptions, logic foundations     |
+| **How**        | Traces patterns, relationships in reasoning |
+| **What**       | Step-by-step clarity, predictable format    |

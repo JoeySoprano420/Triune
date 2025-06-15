@@ -14,3 +14,13 @@
 | Function Definition    | `func greet(who): say "Hello, {who}"`      |
 | Logical Truth Types    | `truth x := (a == a)`                      |
 | Proof by Contradiction | `if not(x == x): error "Logic failure"`    |
+
+📚 Teaching Model Integration
+Triune includes syntax modes for each learner style:
+
+@why_mode → triggers Socratic-style prompts, explanations.
+
+@how_mode → triggers visual metaphors and execution traces.
+
+@what_mode → collapses to pure instruction list for linear learners.
+

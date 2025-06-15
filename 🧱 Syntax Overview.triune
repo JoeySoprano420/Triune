@@ -1,0 +1,10 @@
+proof theorem_name:
+    assume A := true
+    assume B := false
+
+    step 1: A and B → C
+    step 2: not B
+    step 3: therefore, not C
+
+    conclude: not C
+end

@@ -1,0 +1,5 @@
+how: match traffic state
+match signal:
+    when green => say "Go"
+    when yellow => say "Slow"
+    when red => say "Stop"
